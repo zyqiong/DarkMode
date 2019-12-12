@@ -548,7 +548,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4Z3YA4329;
-				GCC_PREFIX_HEADER = /Users/moxiangkeji/Desktop/codeTest/YQTestDark/YQTestDark/TestDark_perfix.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YQTestDark/TestDark_perfix.pch";
 				INFOPLIST_FILE = YQTestDark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -567,7 +568,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4Z3YA4329;
-				GCC_PREFIX_HEADER = /Users/moxiangkeji/Desktop/codeTest/YQTestDark/YQTestDark/TestDark_perfix.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YQTestDark/TestDark_perfix.pch";
 				INFOPLIST_FILE = YQTestDark/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
