@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2585EA61239D30A10040CAF8 /* YQSystemColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2585EA60239D30A10040CAF8 /* YQSystemColorViewController.m */; };
+		5B540CB123989DDF00A33D73 /* YQPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B540CB023989DDF00A33D73 /* YQPresentViewController.m */; };
+		5B540CBA2398CE9A00A33D73 /* YQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B540CB92398CE9A00A33D73 /* YQTabBarController.m */; };
+		5B540CBF2399087B00A33D73 /* YQDarkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B540CBE2399087B00A33D73 /* YQDarkView.m */; };
+		5BA282FB2396563100F39EED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA282FA2396563100F39EED /* AppDelegate.m */; };
+		5BA283062396563700F39EED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA283052396563700F39EED /* Assets.xcassets */; };
+		5BA283092396563700F39EED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA283072396563700F39EED /* LaunchScreen.storyboard */; };
+		5BA2830C2396563700F39EED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2830B2396563700F39EED /* main.m */; };
+		5BA283162396563700F39EED /* YQTestDarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA283152396563700F39EED /* YQTestDarkTests.m */; };
+		5BA283212396563700F39EED /* YQTestDarkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA283202396563700F39EED /* YQTestDarkUITests.m */; };
+		5BA2833023965DF600F39EED /* YQFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2832F23965DF600F39EED /* YQFirstViewController.m */; };
+		5BA2833323965E0300F39EED /* YQSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2833223965E0300F39EED /* YQSecondViewController.m */; };
+		5BA2833623965E1100F39EED /* YQThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA2833523965E1100F39EED /* YQThirdViewController.m */; };
+		5BE94500239A41B2006846A3 /* YQMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE944FF239A41B2006846A3 /* YQMenuController.m */; };
+		5BE94506239A5639006846A3 /* UIColor+YQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE94505239A5639006846A3 /* UIColor+YQColor.m */; };
+		6FB1FB10AB740572CD0B6573 /* libPods-YQTestDark.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C96152509764CBB177513698 /* libPods-YQTestDark.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BA283122396563700F39EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA282EE2396563100F39EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA282F52396563100F39EED;
+			remoteInfo = YQTestDark;
+		};
+		5BA2831D2396563700F39EED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA282EE2396563100F39EED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA282F52396563100F39EED;
+			remoteInfo = YQTestDark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2585EA5E239D26210040CAF8 /* TestDark_perfix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestDark_perfix.pch; sourceTree = "<group>"; };
+		2585EA5F239D30A10040CAF8 /* YQSystemColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSystemColorViewController.h; sourceTree = "<group>"; };
+		2585EA60239D30A10040CAF8 /* YQSystemColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSystemColorViewController.m; sourceTree = "<group>"; };
+		286F5DEC0A51D9D95FFA7C2E /* Pods-YQTestDark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQTestDark.release.xcconfig"; path = "Target Support Files/Pods-YQTestDark/Pods-YQTestDark.release.xcconfig"; sourceTree = "<group>"; };
+		5B540CAF23989DDF00A33D73 /* YQPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPresentViewController.h; sourceTree = "<group>"; };
+		5B540CB023989DDF00A33D73 /* YQPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPresentViewController.m; sourceTree = "<group>"; };
+		5B540CB82398CE9A00A33D73 /* YQTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQTabBarController.h; sourceTree = "<group>"; };
+		5B540CB92398CE9A00A33D73 /* YQTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTabBarController.m; sourceTree = "<group>"; };
+		5B540CBD2399087B00A33D73 /* YQDarkView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQDarkView.h; sourceTree = "<group>"; };
+		5B540CBE2399087B00A33D73 /* YQDarkView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQDarkView.m; sourceTree = "<group>"; };
+		5BA282F62396563100F39EED /* YQTestDark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQTestDark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA282F92396563100F39EED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BA282FA2396563100F39EED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BA283052396563700F39EED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BA283082396563700F39EED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BA2830A2396563700F39EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA2830B2396563700F39EED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BA283112396563700F39EED /* YQTestDarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQTestDarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA283152396563700F39EED /* YQTestDarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTestDarkTests.m; sourceTree = "<group>"; };
+		5BA283172396563700F39EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA2831C2396563700F39EED /* YQTestDarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQTestDarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA283202396563700F39EED /* YQTestDarkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQTestDarkUITests.m; sourceTree = "<group>"; };
+		5BA283222396563700F39EED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA2832E23965DF600F39EED /* YQFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFirstViewController.h; sourceTree = "<group>"; };
+		5BA2832F23965DF600F39EED /* YQFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFirstViewController.m; sourceTree = "<group>"; };
+		5BA2833123965E0300F39EED /* YQSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQSecondViewController.h; sourceTree = "<group>"; };
+		5BA2833223965E0300F39EED /* YQSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQSecondViewController.m; sourceTree = "<group>"; };
+		5BA2833423965E1100F39EED /* YQThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQThirdViewController.h; sourceTree = "<group>"; };
+		5BA2833523965E1100F39EED /* YQThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQThirdViewController.m; sourceTree = "<group>"; };
+		5BE944FE239A41B2006846A3 /* YQMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQMenuController.h; sourceTree = "<group>"; };
+		5BE944FF239A41B2006846A3 /* YQMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQMenuController.m; sourceTree = "<group>"; };
+		5BE94504239A5639006846A3 /* UIColor+YQColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YQColor.h"; sourceTree = "<group>"; };
+		5BE94505239A5639006846A3 /* UIColor+YQColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YQColor.m"; sourceTree = "<group>"; };
+		C96152509764CBB177513698 /* libPods-YQTestDark.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YQTestDark.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD8B57491E3B37A8B9A1F152 /* Pods-YQTestDark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQTestDark.debug.xcconfig"; path = "Target Support Files/Pods-YQTestDark/Pods-YQTestDark.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA282F32396563100F39EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB1FB10AB740572CD0B6573 /* libPods-YQTestDark.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA2830E2396563700F39EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA283192396563700F39EED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA282ED2396563100F39EED = {
+			isa = PBXGroup;
+			children = (
+				5BA282F82396563100F39EED /* YQTestDark */,
+				5BA283142396563700F39EED /* YQTestDarkTests */,
+				5BA2831F2396563700F39EED /* YQTestDarkUITests */,
+				5BA282F72396563100F39EED /* Products */,
+				CDC3132E06C50E0C7FE67952 /* Pods */,
+				E25DC94448AA7735822D9E1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA282F72396563100F39EED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA282F62396563100F39EED /* YQTestDark.app */,
+				5BA283112396563700F39EED /* YQTestDarkTests.xctest */,
+				5BA2831C2396563700F39EED /* YQTestDarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA282F82396563100F39EED /* YQTestDark */ = {
+			isa = PBXGroup;
+			children = (
+				5BE94503239A5611006846A3 /* Views */,
+				5BE94502239A55E1006846A3 /* Controllers */,
+				5BE94501239A55D8006846A3 /* Color */,
+				5BA282F92396563100F39EED /* AppDelegate.h */,
+				5BA282FA2396563100F39EED /* AppDelegate.m */,
+				5BA283052396563700F39EED /* Assets.xcassets */,
+				5BA283072396563700F39EED /* LaunchScreen.storyboard */,
+				5BA2830A2396563700F39EED /* Info.plist */,
+				5BA2830B2396563700F39EED /* main.m */,
+				2585EA5E239D26210040CAF8 /* TestDark_perfix.pch */,
+			);
+			path = YQTestDark;
+			sourceTree = "<group>";
+		};
+		5BA283142396563700F39EED /* YQTestDarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA283152396563700F39EED /* YQTestDarkTests.m */,
+				5BA283172396563700F39EED /* Info.plist */,
+			);
+			path = YQTestDarkTests;
+			sourceTree = "<group>";
+		};
+		5BA2831F2396563700F39EED /* YQTestDarkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA283202396563700F39EED /* YQTestDarkUITests.m */,
+				5BA283222396563700F39EED /* Info.plist */,
+			);
+			path = YQTestDarkUITests;
+			sourceTree = "<group>";
+		};
+		5BE94501239A55D8006846A3 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				5BE94504239A5639006846A3 /* UIColor+YQColor.h */,
+				5BE94505239A5639006846A3 /* UIColor+YQColor.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		5BE94502239A55E1006846A3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BE944FE239A41B2006846A3 /* YQMenuController.h */,
+				5BE944FF239A41B2006846A3 /* YQMenuController.m */,
+				5BA2832E23965DF600F39EED /* YQFirstViewController.h */,
+				5BA2832F23965DF600F39EED /* YQFirstViewController.m */,
+				5BA2833123965E0300F39EED /* YQSecondViewController.h */,
+				5BA2833223965E0300F39EED /* YQSecondViewController.m */,
+				5BA2833423965E1100F39EED /* YQThirdViewController.h */,
+				5BA2833523965E1100F39EED /* YQThirdViewController.m */,
+				5B540CAF23989DDF00A33D73 /* YQPresentViewController.h */,
+				5B540CB023989DDF00A33D73 /* YQPresentViewController.m */,
+				5B540CB82398CE9A00A33D73 /* YQTabBarController.h */,
+				5B540CB92398CE9A00A33D73 /* YQTabBarController.m */,
+				2585EA5F239D30A10040CAF8 /* YQSystemColorViewController.h */,
+				2585EA60239D30A10040CAF8 /* YQSystemColorViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5BE94503239A5611006846A3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B540CBD2399087B00A33D73 /* YQDarkView.h */,
+				5B540CBE2399087B00A33D73 /* YQDarkView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDC3132E06C50E0C7FE67952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD8B57491E3B37A8B9A1F152 /* Pods-YQTestDark.debug.xcconfig */,
+				286F5DEC0A51D9D95FFA7C2E /* Pods-YQTestDark.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E25DC94448AA7735822D9E1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C96152509764CBB177513698 /* libPods-YQTestDark.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA282F52396563100F39EED /* YQTestDark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA283252396563700F39EED /* Build configuration list for PBXNativeTarget "YQTestDark" */;
+			buildPhases = (
+				EC91AE3D98D369F72638B834 /* [CP] Check Pods Manifest.lock */,
+				5BA282F22396563100F39EED /* Sources */,
+				5BA282F32396563100F39EED /* Frameworks */,
+				5BA282F42396563100F39EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YQTestDark;
+			productName = YQTestDark;
+			productReference = 5BA282F62396563100F39EED /* YQTestDark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BA283102396563700F39EED /* YQTestDarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA283282396563700F39EED /* Build configuration list for PBXNativeTarget "YQTestDarkTests" */;
+			buildPhases = (
+				5BA2830D2396563700F39EED /* Sources */,
+				5BA2830E2396563700F39EED /* Frameworks */,
+				5BA2830F2396563700F39EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA283132396563700F39EED /* PBXTargetDependency */,
+			);
+			name = YQTestDarkTests;
+			productName = YQTestDarkTests;
+			productReference = 5BA283112396563700F39EED /* YQTestDarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BA2831B2396563700F39EED /* YQTestDarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA2832B2396563700F39EED /* Build configuration list for PBXNativeTarget "YQTestDarkUITests" */;
+			buildPhases = (
+				5BA283182396563700F39EED /* Sources */,
+				5BA283192396563700F39EED /* Frameworks */,
+				5BA2831A2396563700F39EED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA2831E2396563700F39EED /* PBXTargetDependency */,
+			);
+			name = YQTestDarkUITests;
+			productName = YQTestDarkUITests;
+			productReference = 5BA2831C2396563700F39EED /* YQTestDarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA282EE2396563100F39EED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = zyqiong;
+				TargetAttributes = {
+					5BA282F52396563100F39EED = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					5BA283102396563700F39EED = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 5BA282F52396563100F39EED;
+					};
+					5BA2831B2396563700F39EED = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 5BA282F52396563100F39EED;
+					};
+				};
+			};
+			buildConfigurationList = 5BA282F12396563100F39EED /* Build configuration list for PBXProject "YQTestDark" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BA282ED2396563100F39EED;
+			productRefGroup = 5BA282F72396563100F39EED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA282F52396563100F39EED /* YQTestDark */,
+				5BA283102396563700F39EED /* YQTestDarkTests */,
+				5BA2831B2396563700F39EED /* YQTestDarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA282F42396563100F39EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA283092396563700F39EED /* LaunchScreen.storyboard in Resources */,
+				5BA283062396563700F39EED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA2830F2396563700F39EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA2831A2396563700F39EED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC91AE3D98D369F72638B834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQTestDark-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA282F22396563100F39EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA2833323965E0300F39EED /* YQSecondViewController.m in Sources */,
+				5BE94506239A5639006846A3 /* UIColor+YQColor.m in Sources */,
+				5B540CBA2398CE9A00A33D73 /* YQTabBarController.m in Sources */,
+				5BA2833623965E1100F39EED /* YQThirdViewController.m in Sources */,
+				5B540CB123989DDF00A33D73 /* YQPresentViewController.m in Sources */,
+				5BA282FB2396563100F39EED /* AppDelegate.m in Sources */,
+				5BA2830C2396563700F39EED /* main.m in Sources */,
+				2585EA61239D30A10040CAF8 /* YQSystemColorViewController.m in Sources */,
+				5B540CBF2399087B00A33D73 /* YQDarkView.m in Sources */,
+				5BA2833023965DF600F39EED /* YQFirstViewController.m in Sources */,
+				5BE94500239A41B2006846A3 /* YQMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA2830D2396563700F39EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA283162396563700F39EED /* YQTestDarkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA283182396563700F39EED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA283212396563700F39EED /* YQTestDarkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BA283132396563700F39EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA282F52396563100F39EED /* YQTestDark */;
+			targetProxy = 5BA283122396563700F39EED /* PBXContainerItemProxy */;
+		};
+		5BA2831E2396563700F39EED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA282F52396563100F39EED /* YQTestDark */;
+			targetProxy = 5BA2831D2396563700F39EED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BA283072396563700F39EED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA283082396563700F39EED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA283232396563700F39EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BA283242396563700F39EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BA283262396563700F39EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8B57491E3B37A8B9A1F152 /* Pods-YQTestDark.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Z3YA4329;
+				GCC_PREFIX_HEADER = /Users/moxiangkeji/Desktop/codeTest/YQTestDark/YQTestDark/TestDark_perfix.pch;
+				INFOPLIST_FILE = YQTestDark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyq.YQTestDark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BA283272396563700F39EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286F5DEC0A51D9D95FFA7C2E /* Pods-YQTestDark.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4Z3YA4329;
+				GCC_PREFIX_HEADER = /Users/moxiangkeji/Desktop/codeTest/YQTestDark/YQTestDark/TestDark_perfix.pch;
+				INFOPLIST_FILE = YQTestDark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyq.YQTestDark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BA283292396563700F39EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQTestDarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.zyq.YQTestDarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQTestDark.app/YQTestDark";
+			};
+			name = Debug;
+		};
+		5BA2832A2396563700F39EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQTestDarkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.zyq.YQTestDarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YQTestDark.app/YQTestDark";
+			};
+			name = Release;
+		};
+		5BA2832C2396563700F39EED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQTestDarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.zyq.YQTestDarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YQTestDark;
+			};
+			name = Debug;
+		};
+		5BA2832D2396563700F39EED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YQTestDarkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.zyq.YQTestDarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YQTestDark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA282F12396563100F39EED /* Build configuration list for PBXProject "YQTestDark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA283232396563700F39EED /* Debug */,
+				5BA283242396563700F39EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA283252396563700F39EED /* Build configuration list for PBXNativeTarget "YQTestDark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA283262396563700F39EED /* Debug */,
+				5BA283272396563700F39EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA283282396563700F39EED /* Build configuration list for PBXNativeTarget "YQTestDarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA283292396563700F39EED /* Debug */,
+				5BA2832A2396563700F39EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA2832B2396563700F39EED /* Build configuration list for PBXNativeTarget "YQTestDarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA2832C2396563700F39EED /* Debug */,
+				5BA2832D2396563700F39EED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA282EE2396563100F39EED /* Project object */;
+}

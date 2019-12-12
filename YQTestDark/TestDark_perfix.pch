@@ -1,0 +1,16 @@
+//
+//  TestDark_perfix.pch
+//  YQTestDark
+//
+//  Created by zyqiong on 2019/12/8.
+//  Copyright © 2019 zyqiong. All rights reserved.
+//
+
+#ifndef TestDark_perfix_h
+
+#import "UIColor+YQColor.h"
+
+#define TestDark_perfix_h
+
+
+#endif /* TestDark_perfix_h */
